@@ -5,10 +5,27 @@
     padding: 0;
     scroll-behavior: smooth;}
 
+
+/* modifica el h1 de welcome*/
+.txtWelcome{
+    margin-top: 2rem ;
+    font-size: 5rem;
+    font-family: 'Raleway', sans-serif;}
+
+/* mopdifica el h4 de welccome*/
+.txtW{
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;}
+
+.txtW2{
+    font-size: 4rem;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: solid 2px #ff9f1c;}
+
 /* Modifica todos los titulos*/
 .txtTitle{
     border-bottom: solid 2px #ff9f1c;
-    font-size: 4vw;
+    font-size: 4rem;
     margin-top: 8vw;
     font-family: 'Raleway', sans-serif;}
 
