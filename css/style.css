@@ -6,6 +6,7 @@
     scroll-behavior: smooth;}
 
 
+
 /* modifica el h1 de welcome*/
 .txtWelcome{
     margin-top: 2rem ;
@@ -29,7 +30,7 @@
     margin-top: 8vw;
     font-family: 'Raleway', sans-serif;}
 
-/* modifica todos los titulos*/
+/* modifica el parrafo de todos los titulos*/
 .parrafoTitle{
     font-size: 1.5rem;
     margin-top: 2vw;
@@ -80,3 +81,49 @@
 footer{
     margin-top: 2rem;}
 
+
+@media screen and (min-width: 600px) and (max-width:992px){
+
+
+/* modifica la imagen de perfil*/
+.imgAboutme{
+    margin-left: 8vw;}
+
+/*modifica el contenedor del formulario*/
+.containerForm{
+    margin-left: 12vw;}}
+
+
+@media screen and (max-width: 599px){
+
+/* modifica el h1 de welcome*/
+.txtWelcome{
+    margin-top: 1rem ;
+    font-size: 4rem;}
+
+/* mopdifica el h4 de welccome*/
+.txtW{
+    font-size: 2rem;}
+
+/* mopdifica el h2 de welccome*/
+.txtW2{
+    font-size: 3rem;}
+
+
+/* Modifica todos los titulos*/
+.txtTitle{
+    font-size: 3rem;}
+
+/* modifica el parrafo de todos los titulos*/
+.parrafoTitle{
+    font-size: 1.3rem;}
+
+/* modifica la imagen de perfil*/
+.imgAboutme{
+        width: 20rem;
+        margin-left: 14vw;}
+
+
+/*modifica el contenedor del formulario*/
+.containerForm{
+    margin-left: 13vw;}}
