@@ -1,0 +1,25 @@
+{
+  "name": "clase13",
+  "version": "1.0.0",
+  "description": "aplicando sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/stylescss.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TorresFDev/PortfolioTorresF.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TorresFDev/PortfolioTorresF/issues"
+  },
+  "homepage": "https://github.com/TorresFDev/PortfolioTorresF#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
