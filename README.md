@@ -1,5 +1,4 @@
 
 
 Entrega del proyecto:
-contiene index en formato OnePage
-todo maquetado con boostrap 5.
+no me reconoce las preopiedades en las anidaciones.
