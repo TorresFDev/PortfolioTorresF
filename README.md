@@ -1,4 +1,5 @@
 
 
 Entrega del proyecto:
-no me reconoce las preopiedades en las anidaciones.
+proyecto realizado con boostrap,
+Se aplico sass a toda la OnePage.

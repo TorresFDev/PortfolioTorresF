@@ -8,31 +8,42 @@
   /*modifica la seccion welcome*/
   text-align: left;
   font-family: "Raleway", sans-serif; }
+
   .SectionWelcome .txtWelcome {
     /*modifica el h1 de welcome*/
     margin-top: 2rem;
     font-size: 5rem; }
-    .SectionWelcome .txtWelcome .txtW {
-      /*modifica el h4 de welcome*/
-      font-size: 3rem; }
-      .SectionWelcome .txtWelcome .txtW .txtW2 {
-        /*modifica el h2 de welcome*/
-        font-size: 4rem;
-        border-bottom: solid 2px #ff9f1c; }
+
+  .SectionWelcome .txtW {
+    /*modifica el h4 de welcome*/
+    font-size: 3rem; }
+
+  .SectionWelcome .txtW2 {
+    /*modifica el h2 de welcome*/
+    font-size: 4rem;
+    border-bottom: solid 2px #ff9f1c; }
+
+  .SectionWelcome .parrafoWel {
+    /* modifica el parrafo de welcome*/
+    font-size: 1.5rem;
+    margin-top: 2vw;
+    font-family: "Ubuntu", sans-serif; }
 
 /*Contenedor de todos los titulos*/
 .contenedorTitle {
   font-family: "Raleway", sans-serif; }
+
   .contenedorTitle .txtTitle {
     /* Modifica todos los titulos*/
     border-bottom: solid 2px #ff9f1c;
     font-size: 4rem;
     margin-top: 8vw; }
-    .contenedorTitle .txtTitle .parrafoTitle {
-      /* modifica el parrafo de todos los titulos*/
-      font-size: 1.5rem;
-      margin-top: 2vw;
-      font-family: "Ubuntu", sans-serif; }
+
+  .contenedorTitle .parrafoTitle {
+    /* modifica el parrafo de todos los titulos*/
+    font-size: 1.5rem;
+    margin-top: 2vw;
+    font-family: "Ubuntu", sans-serif; }
 
 /* modifica  las tarjetas*/
 .card {
@@ -40,12 +51,14 @@
   margin-left: 3vw;
   width: 80%;
   transition: 300ms; }
+
   .card:hover {
     transform: scale(1.1); }
-    .card:hover .btn {
-      color: black;
-      background-color: #ff9f1c;
-      border: solid 2px #ff9f1c; }
+    
+  .card .btn {
+    color: black;
+    background-color: #ff9f1c;
+    border: solid 2px #ff9f1c; }
 
 /*modifica el contenedor de experience*/
 .containerExperience {
@@ -56,14 +69,16 @@
 /*modifica el contenedor de aboutme*/
 .containerAboutme {
   justify-content: center; }
+
   .containerAboutme .parrafoAboutme {
     /* modifica el parrafo de aboutme*/
     font-family: "Ubuntu", sans-serif;
     font-size: 1.5rem;
     margin-top: 2vw; }
-    .containerAboutme .parrafoAboutme .imgAboutme {
-      /* modifica la imagen de perfil*/
-      margin-top: 4vw; }
+
+  .containerAboutme .imgAboutme {
+    /* modifica la imagen de perfil*/
+    margin-top: 4vw; }
 
 /*modifica el contenedor del formulario*/
 .containerForm {
@@ -73,35 +88,60 @@
 footer {
   margin-top: 2rem; }
 
+/*------------------------------------------------------------------------------------------------
+
+
+/*------------------VISTA TABLET----------------*/
 @media screen and (min-width: 600px) and (max-width: 992px) {
+
   /* modifica la imagen de perfil*/
   .imgAboutme {
     margin-left: 8vw; }
+
   /*modifica el contenedor del formulario*/
   .containerForm {
     margin-left: 12vw; } }
 
+/*------------------------------------------------------------------------------------------------
+
+
+/*------------------VISTA MOBILE----------------*/
 @media screen and (max-width: 599px) {
-  .txtWelcome {
-    /* modifica el h1 de welcome*/
-    margin-top: 1rem;
-    font-size: 4rem; }
-  .txtW {
-    /* mopdifica el h4 de welccome*/
-    font-size: 2rem; }
-  .txtW2 {
-    /* mopdifica el h2 de welccome*/
-    font-size: 3rem; }
+  .SectionWelcome {
+    /*modifica la seccion welcome*/
+    text-align: left;
+    font-family: "Raleway", sans-serif; }
+
+    .SectionWelcome .txtWelcome {
+      /*modifica el h1 de welcome*/
+      margin-top: 1rem;
+      font-size: 4rem; }
+
+    .SectionWelcome .txtW {
+      /*modifica el h4 de welcome*/
+      font-size: 2rem; }
+
+    .SectionWelcome .txtW2 {
+      /*modifica el h2 de welcome*/
+      font-size: 3rem; }
+
+    .SectionWelcome .parrafoWel {
+      /* modifica el parrafo de welcome*/
+      font-size: 1.3rem; }
+
   /* Modifica todos los titulos*/
   .txtTitle {
     font-size: 3rem; }
+
   /* modifica el parrafo de todos los titulos*/
   .parrafoTitle {
     font-size: 1.3rem; }
+
   /* modifica la imagen de perfil*/
   .imgAboutme {
     width: 20rem;
     margin-left: 14vw; }
+
   /*modifica el contenedor del formulario*/
   .containerForm {
     margin-left: 13vw; } }

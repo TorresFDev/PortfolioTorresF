@@ -14,18 +14,22 @@
 
         .txtWelcome{  /*modifica el h1 de welcome*/
             margin-top: 2rem ;
-            font-size: 5rem;
+            font-size: 5rem;}
 
                 .txtW{  /*modifica el h4 de welcome*/
-                    font-size: 3rem;
+                    font-size: 3rem;}
 
                         .txtW2{  /*modifica el h2 de welcome*/
                             font-size: 4rem;
-                            border-bottom: solid 2px $color-general;
-                            }
+                            border-bottom: solid 2px $color-general;}
+
+                            .parrafoWel{    /* modifica el parrafo de welcome*/ 
+                                font-size: 1.5rem;
+                                margin-top: 2vw;
+                                font-family: $fuente-parrafos;}
                         }
-                    }
-                }
+                    
+                
 
 
 /*Contenedor de todos los titulos*/
@@ -35,15 +39,13 @@
         .txtTitle{/* Modifica todos los titulos*/
             border-bottom: solid 2px $color-general;
             font-size: 4rem;
-            margin-top: 8vw;
+            margin-top: 8vw;}
 
                 .parrafoTitle{/* modifica el parrafo de todos los titulos*/
                     font-size: 1.5rem;
                     margin-top: 2vw;
-                    font-family: $fuente-parrafos;
-                }
+                    font-family: $fuente-parrafos;}
             }
-        }
 
 
 /* modifica  las tarjetas*/
@@ -54,15 +56,14 @@
     transition: 300ms;
 
         &:hover{
-            transform: scale(1.1); 
+            transform: scale(1.1); }
 
                 .btn{
                     color:black;
                     background-color: $color-general ;
-                    border: solid 2px $color-general;
+                    border: solid 2px $color-general;}
             }
-            }
-        }
+        
 
 /*modifica el contenedor de experience*/
 .containerExperience{
@@ -73,14 +74,16 @@
 /*modifica el contenedor de aboutme*/
 .containerAboutme{
     justify-content: center;
+
         .parrafoAboutme{/* modifica el parrafo de aboutme*/
             font-family: $fuente-parrafos;
             font-size: 1.5rem;
-            margin-top: 2vw;
+            margin-top: 2vw;}
+
                 .imgAboutme{/* modifica la imagen de perfil*/
                     margin-top:4vw ;}
                 }
-            }
+            
 
 /*modifica el contenedor del formulario*/
 .containerForm{
@@ -89,6 +92,11 @@
 /* modifica el footer*/
 footer{
     margin-top: 2rem;}
+
+/*------------------------------------------------------------------------------------------------
+
+
+/*------------------VISTA TABLET----------------*/
 
 
 @media screen and (min-width: 600px) and (max-width:992px){
@@ -103,20 +111,33 @@ footer{
     margin-left: 12vw;}}
 
 
+/*------------------------------------------------------------------------------------------------
+
+
+/*------------------VISTA MOBILE----------------*/
+
 @media screen and (max-width: 599px){
 
 
+.SectionWelcome{  /*modifica la seccion welcome*/
+    text-align: left;
+    font-family: $fuente-titulos;
+    
+        .txtWelcome{  /*modifica el h1 de welcome*/
+            margin-top: 1rem ;
+            font-size: 4rem;}
+    
+                .txtW{  /*modifica el h4 de welcome*/
+                    font-size: 2rem;}
+    
+                        .txtW2{  /*modifica el h2 de welcome*/
+                            font-size: 3rem;}
+    
+                            .parrafoWel{    /* modifica el parrafo de welcome*/ 
+                               font-size: 1.3rem;}
+                }
 
-.txtWelcome{/* modifica el h1 de welcome*/
-    margin-top: 1rem ;
-    font-size: 4rem;}
 
-.txtW{/* mopdifica el h4 de welccome*/
-    font-size: 2rem;}
-
-.txtW2{/* mopdifica el h2 de welccome*/
-    font-size: 3rem;}
-           
 
 /* Modifica todos los titulos*/
 .txtTitle{
