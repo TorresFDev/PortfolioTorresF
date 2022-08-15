@@ -1,57 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Source+Sans+Pro:ital,wght@1,200&family=Ubuntu:ital,wght@1,300&display=swap');
 
+@import "variables.scss";
+
 *{
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;}
 
+ 
+.SectionWelcome{  /*modifica la seccion welcome*/
+    text-align: left;
+    font-family: $fuente-titulos;
+
+        .txtWelcome{  /*modifica el h1 de welcome*/
+            margin-top: 2rem ;
+            font-size: 5rem;
+
+                .txtW{  /*modifica el h4 de welcome*/
+                    font-size: 3rem;
+
+                        .txtW2{  /*modifica el h2 de welcome*/
+                            font-size: 4rem;
+                            border-bottom: solid 2px $color-general;
+                            }
+                        }
+                    }
+                }
 
 
-/* modifica el h1 de welcome*/
-.txtWelcome{
-    margin-top: 2rem ;
-    font-size: 5rem;
-    font-family: 'Raleway', sans-serif;}
+/*Contenedor de todos los titulos*/
+.contenedorTitle{
+    font-family: $fuente-titulos;
 
-/* mopdifica el h4 de welccome*/
-.txtW{
-    font-size: 3rem;
-    font-family: 'Raleway', sans-serif;}
+        .txtTitle{/* Modifica todos los titulos*/
+            border-bottom: solid 2px $color-general;
+            font-size: 4rem;
+            margin-top: 8vw;
 
-.txtW2{
-    font-size: 4rem;
-    font-family: 'Raleway', sans-serif;
-    border-bottom: solid 2px #ff9f1c;}
+                .parrafoTitle{/* modifica el parrafo de todos los titulos*/
+                    font-size: 1.5rem;
+                    margin-top: 2vw;
+                    font-family: $fuente-parrafos;
+                }
+            }
+        }
 
-/* Modifica todos los titulos*/
-.txtTitle{
-    border-bottom: solid 2px #ff9f1c;
-    font-size: 4rem;
-    margin-top: 8vw;
-    font-family: 'Raleway', sans-serif;}
-
-/* modifica el parrafo de todos los titulos*/
-.parrafoTitle{
-    font-size: 1.5rem;
-    margin-top: 2vw;
-    font-family: 'Ubuntu', sans-serif;}
 
 /* modifica  las tarjetas*/
 .card{
     background-color: rgb(20, 18, 18);
     margin-left: 3vw;
     width: 80%;
-    transition: 300ms;}
+    transition: 300ms;
 
-.card:hover{
-    transform: scale(1.1);}
+        &:hover{
+            transform: scale(1.1); 
 
-/* modifica todos los botones*/
-.btn{
-    
-    color:black;
-    background-color:#ff9f1c ;
-    border: solid 2px #ff9f1c;}
+                .btn{
+                    color:black;
+                    background-color: $color-general ;
+                    border: solid 2px $color-general;
+            }
+            }
+        }
 
 /*modifica el contenedor de experience*/
 .containerExperience{
@@ -61,17 +72,15 @@
 
 /*modifica el contenedor de aboutme*/
 .containerAboutme{
-    justify-content: center;}
-
-/* modifica el parrafo de aboutme*/
-.parrafoAboutme{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1.5rem;
-    margin-top: 2vw;}
-
-/* modifica la imagen de perfil*/
-.imgAboutme{
-    margin-top:4vw ;}
+    justify-content: center;
+        .parrafoAboutme{/* modifica el parrafo de aboutme*/
+            font-family: $fuente-parrafos;
+            font-size: 1.5rem;
+            margin-top: 2vw;
+                .imgAboutme{/* modifica la imagen de perfil*/
+                    margin-top:4vw ;}
+                }
+            }
 
 /*modifica el contenedor del formulario*/
 .containerForm{
@@ -96,19 +105,18 @@ footer{
 
 @media screen and (max-width: 599px){
 
-/* modifica el h1 de welcome*/
-.txtWelcome{
+
+
+.txtWelcome{/* modifica el h1 de welcome*/
     margin-top: 1rem ;
     font-size: 4rem;}
 
-/* mopdifica el h4 de welccome*/
-.txtW{
+.txtW{/* mopdifica el h4 de welccome*/
     font-size: 2rem;}
 
-/* mopdifica el h2 de welccome*/
-.txtW2{
+.txtW2{/* mopdifica el h2 de welccome*/
     font-size: 3rem;}
-
+           
 
 /* Modifica todos los titulos*/
 .txtTitle{
