@@ -10,13 +10,14 @@
   .SectionWelcome .txtW {
     /*modifica el h4 de welcome*/
     font-size: 3rem; }
-  .SectionWelcome .txtW2 {
+  .SectionWelcome .txtW2, .SectionWelcome .parrafoWel {
     /*modifica el h2 de welcome*/
     font-size: 4rem;
     border-bottom: solid 2px #ff9f1c; }
   .SectionWelcome .parrafoWel {
     /* modifica el parrafo de welcome*/
     font-size: 1.5rem;
+    border-bottom: none;
     margin-top: 2vw;
     font-family: "Ubuntu", sans-serif; }
 
@@ -98,7 +99,7 @@ footer {
     .SectionWelcome .txtW {
       /*modifica el h4 de welcome*/
       font-size: 2rem; }
-    .SectionWelcome .txtW2 {
+    .SectionWelcome .txtW2, .SectionWelcome .parrafoWel {
       /*modifica el h2 de welcome*/
       font-size: 3rem; }
     .SectionWelcome .parrafoWel {

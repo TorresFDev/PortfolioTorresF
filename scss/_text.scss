@@ -14,7 +14,9 @@
                             border-bottom: solid 2px $color-general;}
 
                             .parrafoWel{    /* modifica el parrafo de welcome*/ 
+                                @extend .txtW2;
                                 font-size:map-get($sizes,unocinco);
+                                border-bottom: none;
                                 margin-top: 2vw;
                                 font-family: $fuente-parrafos;}
                         }
@@ -24,7 +26,7 @@
 .containerExperience{
     justify-content: center;
     margin-top: 8vw;
-    padding-left: 1vw;}    
+    padding-left: 1vw;}
 
 /*modifica el contenedor de aboutme*/
 .containerAboutme{
