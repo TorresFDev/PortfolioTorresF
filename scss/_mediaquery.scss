@@ -1,7 +1,7 @@
 /*------------------VISTA TABLET----------------*/
 
 
-@media screen and (min-width: 600px) and (max-width:992px){
+@media screen and (min-width: 751px) and (max-width:970px){
 
 
     /* modifica la imagen de perfil*/
@@ -10,7 +10,7 @@
     
     /*modifica el contenedor del formulario*/
     .containerForm{
-        margin-left: 12vw;}}
+        margin-left: 17vw;}}
     
     
     /*------------------------------------------------------------------------------------------------
@@ -18,7 +18,7 @@
     
     /*------------------VISTA MOBILE----------------*/
     
-    @media screen and (max-width: 599px){
+    @media screen and (max-width: 750px){
     
     
     .SectionWelcome{  /*modifica la seccion welcome*/
@@ -48,11 +48,13 @@
     /* modifica el parrafo de todos los titulos*/
     .parrafoTitle{
         font-size: map-get($sizes,unotreso);}
+
+    .card{margin-left: 9vw;}
     
     /* modifica la imagen de perfil*/
     .imgAboutme{
             width: map-get($sizes,veinte);
-            margin-left: 14vw;}
+            margin-left: 5vw;}
     
     
     /*modifica el contenedor del formulario*/
