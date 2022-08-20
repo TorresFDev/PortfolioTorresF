@@ -1,0 +1,14 @@
+/*Contenedor de todos los titulos*/
+.contenedorTitle{
+    font-family: $fuente-titulos;
+
+        .txtTitle{/* Modifica todos los titulos*/
+            border-bottom: solid 2px $color-general;
+            font-size: map-get($sizes,cuatro);
+            margin-top: 8vw;}
+
+                .parrafoTitle{/* modifica el parrafo de todos los titulos*/
+                    font-size: map-get($sizes,unocinco);
+                    margin-top: 2vw;
+                    font-family: $fuente-parrafos;}
+            }

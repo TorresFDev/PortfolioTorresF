@@ -1,0 +1,15 @@
+/* modifica  las tarjetas*/
+.card{
+    background-color: rgb(20, 18, 18);
+    margin-left: 3vw;
+    width: 80%;
+    transition: 300ms;
+
+        &:hover{
+            transform: scale(1.1); }
+
+                .btn{
+                    color:black;
+                    background-color: $color-general ;
+                    border: solid 2px $color-general;}
+            }

@@ -1,0 +1,45 @@
+.SectionWelcome{  /*modifica la seccion welcome*/
+    text-align: left;
+    font-family: $fuente-titulos;
+
+        .txtWelcome{  /*modifica el h1 de welcome*/
+            margin-top: map-get($sizes,dos); 
+            font-size: map-get($sizes,cinco);}
+
+                .txtW{  /*modifica el h4 de welcome*/
+                    font-size:map-get($sizes,tres);}
+
+                        .txtW2{  /*modifica el h2 de welcome*/
+                            font-size:map-get($sizes,cuatro);
+                            border-bottom: solid 2px $color-general;}
+
+                            .parrafoWel{    /* modifica el parrafo de welcome*/ 
+                                font-size:map-get($sizes,unocinco);
+                                margin-top: 2vw;
+                                font-family: $fuente-parrafos;}
+                        }
+
+
+/*modifica el contenedor de experience*/                    
+.containerExperience{
+    justify-content: center;
+    margin-top: 8vw;
+    padding-left: 1vw;}    
+
+/*modifica el contenedor de aboutme*/
+.containerAboutme{
+    justify-content: center;
+
+        .parrafoAboutme{/* modifica el parrafo de aboutme*/
+            font-family: $fuente-parrafos;
+            font-size: map-get($sizes,unocinco);
+            margin-top: 2vw;}
+
+                .imgAboutme{/* modifica la imagen de perfil*/
+                    margin-top:4vw ;}
+                }             
+
+
+/*modifica el contenedor del formulario*/
+.containerForm{
+    margin-left: 17vw;}

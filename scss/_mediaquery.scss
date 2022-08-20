@@ -1,0 +1,60 @@
+/*------------------VISTA TABLET----------------*/
+
+
+@media screen and (min-width: 600px) and (max-width:992px){
+
+
+    /* modifica la imagen de perfil*/
+    .imgAboutme{
+        margin-left: 8vw;}
+    
+    /*modifica el contenedor del formulario*/
+    .containerForm{
+        margin-left: 12vw;}}
+    
+    
+    /*------------------------------------------------------------------------------------------------
+    
+    
+    /*------------------VISTA MOBILE----------------*/
+    
+    @media screen and (max-width: 599px){
+    
+    
+    .SectionWelcome{  /*modifica la seccion welcome*/
+        text-align: left;
+        font-family: $fuente-titulos;
+        
+            .txtWelcome{  /*modifica el h1 de welcome*/
+                margin-top: map-get($sizes,uno) ;
+                font-size: map-get($sizes,cuatro);}
+        
+                    .txtW{  /*modifica el h4 de welcome*/
+                        font-size: map-get($sizes,dos);}
+        
+                            .txtW2{  /*modifica el h2 de welcome*/
+                                font-size: map-get($sizes,tres);}
+        
+                                .parrafoWel{    /* modifica el parrafo de welcome*/ 
+                                   font-size: map-get($sizes,unotres);}
+                    }
+    
+    
+    
+    /* Modifica todos los titulos*/
+    .txtTitle{
+        font-size: map-get($sizes,tress);}
+    
+    /* modifica el parrafo de todos los titulos*/
+    .parrafoTitle{
+        font-size: map-get($sizes,unotreso);}
+    
+    /* modifica la imagen de perfil*/
+    .imgAboutme{
+            width: map-get($sizes,veinte);
+            margin-left: 14vw;}
+    
+    
+    /*modifica el contenedor del formulario*/
+    .containerForm{
+        margin-left: 13vw;}}
