@@ -1,3 +1,12 @@
+@import "mixins.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;}
+
+
+
 .SectionWelcome{  /*modifica la seccion welcome*/
     text-align: left;
     font-family: $fuente-titulos;
@@ -17,6 +26,7 @@
                                 @extend .txtW2;
                                 font-size:map-get($sizes,unocinco);
                                 border-bottom: none;
+                                line-height: 50px;
                                 margin-top: 2vw;
                                 font-family: $fuente-parrafos;}
                         }
@@ -24,21 +34,22 @@
 
 /*modifica el contenedor de experience*/                    
 .containerExperience{
-    justify-content: center;
-    margin-top: 8vw;
-    padding-left: 1vw;}
+@include center-mar-padd;}
 
 /*modifica el contenedor de aboutme*/
 .containerAboutme{
-    justify-content: center;
+    @include center-mar-padd;
+    margin-top: 2vw;
 
         .parrafoAboutme{/* modifica el parrafo de aboutme*/
             font-family: $fuente-parrafos;
+            line-height: 50px;
             font-size: map-get($sizes,unocinco);
             margin-top: 2vw;}
 
                 .imgAboutme{/* modifica la imagen de perfil*/
-                    margin-top:4vw ;}
+                    margin-top:4vw ;
+                    margin-left: 50px;}
                 }             
 
 

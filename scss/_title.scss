@@ -9,6 +9,7 @@
 
                 .parrafoTitle{/* modifica el parrafo de todos los titulos*/
                     font-size: map-get($sizes,unocinco);
+                    line-height: 50px;
                     margin-top: 2vw;
                     font-family: $fuente-parrafos;}
             }
