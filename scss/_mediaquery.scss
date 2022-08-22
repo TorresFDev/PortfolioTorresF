@@ -1,8 +1,12 @@
 /*------------------VISTA TABLET----------------*/
 
 
-@media screen and (min-width: 751px) and (max-width:1020px){
+@media screen and (min-width: 768px) and (max-width:1200px){
 
+
+    .card{
+        width: 15rem;}
+        
 
     /* modifica la imagen de perfil*/
     .imgAboutme{
@@ -10,7 +14,7 @@
     
     /*modifica el contenedor del formulario*/
     .containerForm{
-        margin-left: 17vw;}}
+        margin-left: 13vw;}}
     
     
     /*------------------------------------------------------------------------------------------------
@@ -18,7 +22,14 @@
     
     /*------------------VISTA MOBILE----------------*/
     
-    @media screen and (max-width: 750px){
+    @media screen and (max-width: 767px){
+
+    .tarjetas{/*modifica el contenedor  de las tarjetas*/
+        margin-left: 5vw;
+
+        .card{/*modifica las tarjetas*/
+            width: 20rem;}
+            }
     
     
     .SectionWelcome{  /*modifica la seccion welcome*/
@@ -49,13 +60,11 @@
     .parrafoTitle{
         font-size: map-get($sizes,unotreso);}
 
-    .card{margin-left: 9vw;}
+    .card{margin-left: 10vw;}
     
     /* modifica la imagen de perfil*/
     .imgAboutme{
-            width: map-get($sizes,veinte);
-            margin-left: 5vw;}
-    
+            width: map-get($sizes,veinte);}
     
     /*modifica el contenedor del formulario*/
     .containerForm{

@@ -1,4 +1,4 @@
-@mixin center-mar-padd{
-justify-content: center;
-margin-top: 8vw;
-padding-left: 1vw;}
+@mixin container_gen($justify,$margin,$padding){
+justify-content: $justify;
+margin-top: $margin;
+padding-left: $padding;}

@@ -1,13 +1,13 @@
 /* modifica  las tarjetas*/
+
 .card{
     background-color: rgb(20, 18, 18);
-    margin-left: 1vw;
-    width: 80%;
-    margin-top: 30px;
+    width: 18rem;
+    margin-top: 3rem;
     transition: 300ms;
 
         &:hover{
-            transform: scale(1.3); }
+            transform: scale(1.29); }
 
                 .btn{/* modifica los botones de las tarjetas*/
                     color:black;
