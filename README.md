@@ -15,6 +15,6 @@ This project is about a personal portfolio, it contains my personal experience, 
 :heavy_check_mark:VSC(Visual Studio Code)<br>
 :heavy_check_mark:HTML<br>
 :heavy_check_mark:CSS<br>
-:heavy_check_mark::SCSS<br>
+:heavy_check_mark:SCSS<br>
 :heavy_check_mark:BOOSTRAP 5<br>
 :heavy_check_mark:JAVASCRIPT<br>
